@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D07802226676A150040F2C8 /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D07802126676A150040F2C8 /* Login.framework */; };
+		5D07802326676A150040F2C8 /* Login.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D07802126676A150040F2C8 /* Login.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5D41066E26613F81006F21CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41066D26613F81006F21CA /* AppDelegate.swift */; };
 		5D41067026613F81006F21CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41066F26613F81006F21CA /* SceneDelegate.swift */; };
 		5D41067226613F81006F21CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41067126613F81006F21CA /* ViewController.swift */; };
@@ -16,81 +18,9 @@
 		5D41068526613F83006F21CA /* ModularCarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41068426613F83006F21CA /* ModularCarthageTests.swift */; };
 		5D41069026613F83006F21CA /* ModularCarthageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41068F26613F83006F21CA /* ModularCarthageUITests.swift */; };
 		5D74CAEB2664EBE7002C68CD /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74CAEA2664EBE7002C68CD /* Navigation.swift */; };
-		5D7551AF2666276300317F68 /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1B4D23266372F500AF255F /* Login.framework */; };
-		5D7551B02666276300317F68 /* Login.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1B4D23266372F500AF255F /* Login.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D077FDC2667509F0040F2C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D077FD72667509F0040F2C8 /* Common.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D74C9FA2664C60F002C68CD;
-			remoteInfo = Common;
-		};
-		5D077FDE2667509F0040F2C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D077FD72667509F0040F2C8 /* Common.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D74CA032664C60F002C68CD;
-			remoteInfo = CommonTests;
-		};
-		5D077FE9266750BC0040F2C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D7550E5266619C200317F68;
-			remoteInfo = FacebookProfile;
-		};
-		5D077FEB266750BC0040F2C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D7550EE266619C300317F68;
-			remoteInfo = FacebookProfileTests;
-		};
-		5D1B4D22266372F500AF255F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D1B4D1D266372F500AF255F /* Login.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D1B4D03266372F400AF255F;
-			remoteInfo = Login;
-		};
-		5D1B4D24266372F500AF255F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D1B4D1D266372F500AF255F /* Login.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D1B4D0C266372F500AF255F;
-			remoteInfo = LoginTests;
-		};
-		5D1B4D7B26637F9900AF255F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D1B4D7626637F9800AF255F /* Facebook.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5DD02A3C2662682000157F36;
-			remoteInfo = Facebook;
-		};
-		5D1B4D7D26637F9900AF255F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D1B4D7626637F9800AF255F /* Facebook.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5DD02A452662682000157F36;
-			remoteInfo = FacebookTests;
-		};
-		5D1B4D8826637F9F00AF255F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D1B4D8326637F9F00AF255F /* Networking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5DD029B626625B9600157F36;
-			remoteInfo = Networking;
-		};
-		5D1B4D8A26637F9F00AF255F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D1B4D8326637F9F00AF255F /* Networking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5DD029BF26625B9600157F36;
-			remoteInfo = NetworkingTests;
-		};
 		5D41068126613F83006F21CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D41066226613F81006F21CA /* Project object */;
@@ -114,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5D7551B02666276300317F68 /* Login.framework in Embed Frameworks */,
+				5D07802326676A150040F2C8 /* Login.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,11 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5D077FD72667509F0040F2C8 /* Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Common.xcodeproj; path = Common/Common/Common.xcodeproj; sourceTree = SOURCE_ROOT; };
-		5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FacebookProfile.xcodeproj; path = Feature/FacebookProfile/FacebookProfile.xcodeproj; sourceTree = SOURCE_ROOT; };
-		5D1B4D1D266372F500AF255F /* Login.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Login.xcodeproj; path = Feature/Login/Login.xcodeproj; sourceTree = SOURCE_ROOT; };
-		5D1B4D7626637F9800AF255F /* Facebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Facebook.xcodeproj; path = Core/Facebook/Facebook.xcodeproj; sourceTree = SOURCE_ROOT; };
-		5D1B4D8326637F9F00AF255F /* Networking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Networking.xcodeproj; path = Core/Networking/Networking.xcodeproj; sourceTree = SOURCE_ROOT; };
+		5D07802126676A150040F2C8 /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D41066A26613F81006F21CA /* ModularCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D41066D26613F81006F21CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D41066F26613F81006F21CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D7551AF2666276300317F68 /* Login.framework in Frameworks */,
+				5D07802226676A150040F2C8 /* Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,51 +97,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D077FD82667509F0040F2C8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D077FDD2667509F0040F2C8 /* Common.framework */,
-				5D077FDF2667509F0040F2C8 /* CommonTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D077FE5266750BC0040F2C8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D077FEA266750BC0040F2C8 /* FacebookProfile.framework */,
-				5D077FEC266750BC0040F2C8 /* FacebookProfileTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D1B4D1E266372F500AF255F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D1B4D23266372F500AF255F /* Login.framework */,
-				5D1B4D25266372F500AF255F /* LoginTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D1B4D7726637F9800AF255F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D1B4D7C26637F9900AF255F /* Facebook.framework */,
-				5D1B4D7E26637F9900AF255F /* FacebookTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D1B4D8426637F9F00AF255F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D1B4D8926637F9F00AF255F /* Networking.framework */,
-				5D1B4D8B26637F9F00AF255F /* NetworkingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5D41066126613F81006F21CA = {
 			isa = PBXGroup;
 			children = (
@@ -240,11 +121,6 @@
 		5D41066C26613F81006F21CA /* ModularCarthage */ = {
 			isa = PBXGroup;
 			children = (
-				5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */,
-				5D077FD72667509F0040F2C8 /* Common.xcodeproj */,
-				5D1B4D8326637F9F00AF255F /* Networking.xcodeproj */,
-				5D1B4D7626637F9800AF255F /* Facebook.xcodeproj */,
-				5D1B4D1D266372F500AF255F /* Login.xcodeproj */,
 				5D41066D26613F81006F21CA /* AppDelegate.swift */,
 				5D41066F26613F81006F21CA /* SceneDelegate.swift */,
 				5D41067126613F81006F21CA /* ViewController.swift */,
@@ -278,6 +154,7 @@
 		5DD02B5C266287C800157F36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D07802126676A150040F2C8 /* Login.framework */,
 				5D7552412666317000317F68 /* Someting.framework */,
 			);
 			name = Frameworks;
@@ -373,28 +250,6 @@
 			mainGroup = 5D41066126613F81006F21CA;
 			productRefGroup = 5D41066B26613F81006F21CA /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 5D077FD82667509F0040F2C8 /* Products */;
-					ProjectRef = 5D077FD72667509F0040F2C8 /* Common.xcodeproj */;
-				},
-				{
-					ProductGroup = 5D1B4D7726637F9800AF255F /* Products */;
-					ProjectRef = 5D1B4D7626637F9800AF255F /* Facebook.xcodeproj */;
-				},
-				{
-					ProductGroup = 5D077FE5266750BC0040F2C8 /* Products */;
-					ProjectRef = 5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */;
-				},
-				{
-					ProductGroup = 5D1B4D1E266372F500AF255F /* Products */;
-					ProjectRef = 5D1B4D1D266372F500AF255F /* Login.xcodeproj */;
-				},
-				{
-					ProductGroup = 5D1B4D8426637F9F00AF255F /* Products */;
-					ProjectRef = 5D1B4D8326637F9F00AF255F /* Networking.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				5D41066926613F81006F21CA /* ModularCarthage */,
@@ -403,79 +258,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		5D077FDD2667509F0040F2C8 /* Common.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Common.framework;
-			remoteRef = 5D077FDC2667509F0040F2C8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D077FDF2667509F0040F2C8 /* CommonTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CommonTests.xctest;
-			remoteRef = 5D077FDE2667509F0040F2C8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D077FEA266750BC0040F2C8 /* FacebookProfile.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FacebookProfile.framework;
-			remoteRef = 5D077FE9266750BC0040F2C8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D077FEC266750BC0040F2C8 /* FacebookProfileTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = FacebookProfileTests.xctest;
-			remoteRef = 5D077FEB266750BC0040F2C8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D1B4D23266372F500AF255F /* Login.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Login.framework;
-			remoteRef = 5D1B4D22266372F500AF255F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D1B4D25266372F500AF255F /* LoginTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = LoginTests.xctest;
-			remoteRef = 5D1B4D24266372F500AF255F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D1B4D7C26637F9900AF255F /* Facebook.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Facebook.framework;
-			remoteRef = 5D1B4D7B26637F9900AF255F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D1B4D7E26637F9900AF255F /* FacebookTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = FacebookTests.xctest;
-			remoteRef = 5D1B4D7D26637F9900AF255F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D1B4D8926637F9F00AF255F /* Networking.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Networking.framework;
-			remoteRef = 5D1B4D8826637F9F00AF255F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D1B4D8B26637F9F00AF255F /* NetworkingTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NetworkingTests.xctest;
-			remoteRef = 5D1B4D8A26637F9F00AF255F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5D41066826613F81006F21CA /* Resources */ = {

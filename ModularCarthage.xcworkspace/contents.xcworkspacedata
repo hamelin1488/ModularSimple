@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Facebook/Facebook.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Networking/Networking.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Common/Common.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FacebookProfile/FacebookProfile.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Login/Login.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "container:ModularCarthage.xcodeproj">
    </FileRef>
 </Workspace>
