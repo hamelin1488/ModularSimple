@@ -21,6 +21,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5D077FDC2667509F0040F2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D077FD72667509F0040F2C8 /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D74C9FA2664C60F002C68CD;
+			remoteInfo = Common;
+		};
+		5D077FDE2667509F0040F2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D077FD72667509F0040F2C8 /* Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D74CA032664C60F002C68CD;
+			remoteInfo = CommonTests;
+		};
+		5D077FE9266750BC0040F2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D7550E5266619C200317F68;
+			remoteInfo = FacebookProfile;
+		};
+		5D077FEB266750BC0040F2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D7550EE266619C300317F68;
+			remoteInfo = FacebookProfileTests;
+		};
 		5D1B4D22266372F500AF255F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D1B4D1D266372F500AF255F /* Login.xcodeproj */;
@@ -63,34 +91,6 @@
 			remoteGlobalIDString = 5DD029BF26625B9600157F36;
 			remoteInfo = NetworkingTests;
 		};
-		5D23D0962667300F002A2935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D7551BE266627F000317F68 /* Common.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D74C9FA2664C60F002C68CD;
-			remoteInfo = Common;
-		};
-		5D23D0982667300F002A2935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D7551BE266627F000317F68 /* Common.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D74CA032664C60F002C68CD;
-			remoteInfo = CommonTests;
-		};
-		5D23D09E2667300F002A2935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D7550FF266619C300317F68 /* FacebookProfile.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D7550E5266619C200317F68;
-			remoteInfo = FacebookProfile;
-		};
-		5D23D0A02667300F002A2935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D7550FF266619C300317F68 /* FacebookProfile.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D7550EE266619C300317F68;
-			remoteInfo = FacebookProfileTests;
-		};
 		5D41068126613F83006F21CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D41066226613F81006F21CA /* Project object */;
@@ -122,6 +122,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D077FD72667509F0040F2C8 /* Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Common.xcodeproj; path = Common/Common/Common.xcodeproj; sourceTree = SOURCE_ROOT; };
+		5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FacebookProfile.xcodeproj; path = Feature/FacebookProfile/FacebookProfile.xcodeproj; sourceTree = SOURCE_ROOT; };
 		5D1B4D1D266372F500AF255F /* Login.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Login.xcodeproj; path = Feature/Login/Login.xcodeproj; sourceTree = SOURCE_ROOT; };
 		5D1B4D7626637F9800AF255F /* Facebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Facebook.xcodeproj; path = Core/Facebook/Facebook.xcodeproj; sourceTree = SOURCE_ROOT; };
 		5D1B4D8326637F9F00AF255F /* Networking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Networking.xcodeproj; path = Core/Networking/Networking.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -140,8 +142,6 @@
 		5D41068F26613F83006F21CA /* ModularCarthageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularCarthageUITests.swift; sourceTree = "<group>"; };
 		5D41069126613F83006F21CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D74CAEA2664EBE7002C68CD /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
-		5D7550FF266619C300317F68 /* FacebookProfile.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FacebookProfile.xcodeproj; path = ../../Feature/FacebookProfile/FacebookProfile.xcodeproj; sourceTree = "<group>"; };
-		5D7551BE266627F000317F68 /* Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Common.xcodeproj; path = ../../Common/Common/Common.xcodeproj; sourceTree = "<group>"; };
 		5D7552412666317000317F68 /* Someting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Someting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -171,6 +171,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D077FD82667509F0040F2C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D077FDD2667509F0040F2C8 /* Common.framework */,
+				5D077FDF2667509F0040F2C8 /* CommonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D077FE5266750BC0040F2C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D077FEA266750BC0040F2C8 /* FacebookProfile.framework */,
+				5D077FEC266750BC0040F2C8 /* FacebookProfileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5D1B4D1E266372F500AF255F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,24 +212,6 @@
 			children = (
 				5D1B4D8926637F9F00AF255F /* Networking.framework */,
 				5D1B4D8B26637F9F00AF255F /* NetworkingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D23D0902667300F002A2935 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D23D09F2667300F002A2935 /* FacebookProfile.framework */,
-				5D23D0A12667300F002A2935 /* FacebookProfileTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D23D0922667300F002A2935 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D23D0972667300F002A2935 /* Common.framework */,
-				5D23D0992667300F002A2935 /* CommonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,9 +240,11 @@
 		5D41066C26613F81006F21CA /* ModularCarthage */ = {
 			isa = PBXGroup;
 			children = (
-				5D7551BD266627C700317F68 /* Common */,
-				5D7550322665F04F00317F68 /* Core */,
-				5D7550292665EFF400317F68 /* Feature */,
+				5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */,
+				5D077FD72667509F0040F2C8 /* Common.xcodeproj */,
+				5D1B4D8326637F9F00AF255F /* Networking.xcodeproj */,
+				5D1B4D7626637F9800AF255F /* Facebook.xcodeproj */,
+				5D1B4D1D266372F500AF255F /* Login.xcodeproj */,
 				5D41066D26613F81006F21CA /* AppDelegate.swift */,
 				5D41066F26613F81006F21CA /* SceneDelegate.swift */,
 				5D41067126613F81006F21CA /* ViewController.swift */,
@@ -271,32 +273,6 @@
 				5D41069126613F83006F21CA /* Info.plist */,
 			);
 			path = ModularCarthageUITests;
-			sourceTree = "<group>";
-		};
-		5D7550292665EFF400317F68 /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-				5D7550FF266619C300317F68 /* FacebookProfile.xcodeproj */,
-				5D1B4D1D266372F500AF255F /* Login.xcodeproj */,
-			);
-			path = Feature;
-			sourceTree = "<group>";
-		};
-		5D7550322665F04F00317F68 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				5D1B4D7626637F9800AF255F /* Facebook.xcodeproj */,
-				5D1B4D8326637F9F00AF255F /* Networking.xcodeproj */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		5D7551BD266627C700317F68 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				5D7551BE266627F000317F68 /* Common.xcodeproj */,
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		5DD02B5C266287C800157F36 /* Frameworks */ = {
@@ -399,16 +375,16 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 5D23D0922667300F002A2935 /* Products */;
-					ProjectRef = 5D7551BE266627F000317F68 /* Common.xcodeproj */;
+					ProductGroup = 5D077FD82667509F0040F2C8 /* Products */;
+					ProjectRef = 5D077FD72667509F0040F2C8 /* Common.xcodeproj */;
 				},
 				{
 					ProductGroup = 5D1B4D7726637F9800AF255F /* Products */;
 					ProjectRef = 5D1B4D7626637F9800AF255F /* Facebook.xcodeproj */;
 				},
 				{
-					ProductGroup = 5D23D0902667300F002A2935 /* Products */;
-					ProjectRef = 5D7550FF266619C300317F68 /* FacebookProfile.xcodeproj */;
+					ProductGroup = 5D077FE5266750BC0040F2C8 /* Products */;
+					ProjectRef = 5D077FE4266750BC0040F2C8 /* FacebookProfile.xcodeproj */;
 				},
 				{
 					ProductGroup = 5D1B4D1E266372F500AF255F /* Products */;
@@ -429,6 +405,34 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5D077FDD2667509F0040F2C8 /* Common.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Common.framework;
+			remoteRef = 5D077FDC2667509F0040F2C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D077FDF2667509F0040F2C8 /* CommonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CommonTests.xctest;
+			remoteRef = 5D077FDE2667509F0040F2C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D077FEA266750BC0040F2C8 /* FacebookProfile.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FacebookProfile.framework;
+			remoteRef = 5D077FE9266750BC0040F2C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D077FEC266750BC0040F2C8 /* FacebookProfileTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FacebookProfileTests.xctest;
+			remoteRef = 5D077FEB266750BC0040F2C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5D1B4D23266372F500AF255F /* Login.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -469,34 +473,6 @@
 			fileType = wrapper.cfbundle;
 			path = NetworkingTests.xctest;
 			remoteRef = 5D1B4D8A26637F9F00AF255F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D23D0972667300F002A2935 /* Common.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Common.framework;
-			remoteRef = 5D23D0962667300F002A2935 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D23D0992667300F002A2935 /* CommonTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CommonTests.xctest;
-			remoteRef = 5D23D0982667300F002A2935 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D23D09F2667300F002A2935 /* FacebookProfile.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FacebookProfile.framework;
-			remoteRef = 5D23D09E2667300F002A2935 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D23D0A12667300F002A2935 /* FacebookProfileTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = FacebookProfileTests.xctest;
-			remoteRef = 5D23D0A02667300F002A2935 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
