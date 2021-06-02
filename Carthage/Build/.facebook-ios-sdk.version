@@ -1,0 +1,51 @@
+{
+  "commitish" : "v9.3.0",
+  "iOS" : [
+    {
+      "hash" : "1b35abcffe814f09253e629ca88421707ecf6594550e0b9fe78de303ae8c8c54",
+      "name" : "FBSDKCoreKit",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+    },
+    {
+      "hash" : "265fc1d2ca3a71a60d84238d26f7ce3deec91ba77666950e851bfcca6b4dda8f",
+      "name" : "FBSDKCoreKit",
+      "linking" : "static",
+      "swiftToolchainVersion" : "5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+    },
+    {
+      "name" : "FBSDKGamingServicesKit",
+      "hash" : "6b935ea4839be2969e9719fbaf5046955939845a8f023d8a714ba7c5b53129b1",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "FBSDKGamingServicesKit",
+      "hash" : "a3815dea9b23761529b543feeb17d7c03a18ea8e2bca3b20cd41a50441cc8536",
+      "linking" : "static"
+    },
+    {
+      "hash" : "ad986b588cdf5d76e1bd402add60042dbdcf228e470249d9d5c85b28c1eaed87",
+      "name" : "FBSDKLoginKit",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+    },
+    {
+      "hash" : "be14df16ae59c09529b98f5ea1cd8ef07cb1b71eef0459ae1db82254340ecd81",
+      "name" : "FBSDKLoginKit",
+      "linking" : "static",
+      "swiftToolchainVersion" : "5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+    },
+    {
+      "hash" : "2f6a79c20e875127543e9605bbd72590238929b5323904ccca1f6e3cfaf03213",
+      "name" : "FBSDKShareKit",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+    },
+    {
+      "hash" : "fee50bbc41c98ec080d2771505acfaacf1e314924e8c6e5c5e074a3ad0ca0df9",
+      "name" : "FBSDKShareKit",
+      "linking" : "static",
+      "swiftToolchainVersion" : "5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+    }
+  ]
+}

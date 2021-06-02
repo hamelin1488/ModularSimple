@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Facebook Profile View Controller-->
+        <scene sceneID="N57-dO-7SL">
+            <objects>
+                <viewController storyboardIdentifier="facebookProfile" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nqp-0y-T4N" customClass="FacebookProfileViewController" customModule="Login" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UTU-ar-Yr8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tz8-B7-JIb">
+                                <rect key="frame" x="116" y="152" width="182" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="dcQ-or-WC6"/>
+                                    <constraint firstAttribute="width" constant="182" id="p5U-4r-loZ"/>
+                                </constraints>
+                                <state key="normal" title="Share Link"/>
+                                <connections>
+                                    <action selector="shareContentTapped:" destination="nqp-0y-T4N" eventType="touchUpInside" id="rNI-N4-TVI"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ddZ-GY-DaD">
+                                <rect key="frame" x="0.0" y="44" width="414" height="61.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4h-zj-xx3">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0z-wA-yqY">
+                                        <rect key="frame" x="0.0" y="20.5" width="414" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XL5-8D-nLH">
+                                        <rect key="frame" x="0.0" y="41" width="414" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ig3-d1-IpR">
+                                <rect key="frame" x="117" y="235" width="182" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="dIS-0c-tMC"/>
+                                    <constraint firstAttribute="width" constant="182" id="gbR-1s-eDA"/>
+                                </constraints>
+                                <state key="normal" title="Share Image"/>
+                                <connections>
+                                    <action selector="shareImageTapped:" destination="nqp-0y-T4N" eventType="touchUpInside" id="kcF-QH-1N7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcT-Xi-cbA">
+                                <rect key="frame" x="116" y="314" width="182" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="8zd-OC-jd0"/>
+                                    <constraint firstAttribute="height" constant="30" id="MW1-ig-ZzC"/>
+                                </constraints>
+                                <state key="normal" title="Share Story"/>
+                                <connections>
+                                    <action selector="shareStoryTapped:" destination="nqp-0y-T4N" eventType="touchUpInside" id="CNp-Wa-IsV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYs-PM-Bru">
+                                <rect key="frame" x="135" y="483" width="144" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="8xN-dP-ZTy"/>
+                                    <constraint firstAttribute="height" constant="30" id="Wz3-Hv-swe"/>
+                                </constraints>
+                                <state key="normal" title="ToLanding"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7Q-bd-hRV">
+                                <rect key="frame" x="88" y="723" width="240" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qop-pO-nZ8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Qop-pO-nZ8" firstAttribute="trailing" secondItem="IcT-Xi-cbA" secondAttribute="trailing" constant="116" id="0pP-oM-BxV"/>
+                            <constraint firstItem="ddZ-GY-DaD" firstAttribute="leading" secondItem="Qop-pO-nZ8" secondAttribute="leading" id="4NU-aX-nFO"/>
+                            <constraint firstItem="ddZ-GY-DaD" firstAttribute="leading" secondItem="Qop-pO-nZ8" secondAttribute="leading" id="5uc-wL-epg"/>
+                            <constraint firstItem="ig3-d1-IpR" firstAttribute="leading" secondItem="Qop-pO-nZ8" secondAttribute="leading" constant="117" id="9LQ-65-E6B"/>
+                            <constraint firstItem="Qop-pO-nZ8" firstAttribute="trailing" secondItem="I7Q-bd-hRV" secondAttribute="trailing" constant="86" id="9SW-je-mrb"/>
+                            <constraint firstItem="Qop-pO-nZ8" firstAttribute="bottom" secondItem="I7Q-bd-hRV" secondAttribute="bottom" constant="109" id="Awl-et-m4b"/>
+                            <constraint firstItem="Qop-pO-nZ8" firstAttribute="trailing" secondItem="ig3-d1-IpR" secondAttribute="trailing" constant="115" id="FZ1-ao-F1Z"/>
+                            <constraint firstItem="Qop-pO-nZ8" firstAttribute="trailing" secondItem="ddZ-GY-DaD" secondAttribute="trailing" id="HQi-2B-nlR"/>
+                            <constraint firstItem="Qop-pO-nZ8" firstAttribute="trailing" secondItem="DYs-PM-Bru" secondAttribute="trailing" constant="135" id="Ha6-sM-uU2"/>
+                            <constraint firstItem="DYs-PM-Bru" firstAttribute="leading" secondItem="Qop-pO-nZ8" secondAttribute="leading" constant="135" id="IRR-Aa-bR8"/>
+                            <constraint firstItem="ig3-d1-IpR" firstAttribute="top" secondItem="Tz8-B7-JIb" secondAttribute="bottom" constant="53" id="Jx3-4H-zSX"/>
+                            <constraint firstItem="ddZ-GY-DaD" firstAttribute="top" secondItem="Qop-pO-nZ8" secondAttribute="top" id="XVR-zg-LSG"/>
+                            <constraint firstItem="ddZ-GY-DaD" firstAttribute="trailing" secondItem="Qop-pO-nZ8" secondAttribute="trailing" id="Xdt-Zs-QI6"/>
+                            <constraint firstItem="IcT-Xi-cbA" firstAttribute="leading" secondItem="Qop-pO-nZ8" secondAttribute="leading" constant="116" id="aQn-tQ-duX"/>
+                            <constraint firstItem="I7Q-bd-hRV" firstAttribute="leading" secondItem="Qop-pO-nZ8" secondAttribute="leading" constant="88" id="amz-wn-StQ"/>
+                            <constraint firstItem="IcT-Xi-cbA" firstAttribute="top" secondItem="ig3-d1-IpR" secondAttribute="bottom" constant="49" id="foX-ga-gfV"/>
+                            <constraint firstItem="DYs-PM-Bru" firstAttribute="top" secondItem="IcT-Xi-cbA" secondAttribute="bottom" constant="139" id="hsA-se-gXL"/>
+                            <constraint firstItem="I7Q-bd-hRV" firstAttribute="top" secondItem="DYs-PM-Bru" secondAttribute="bottom" constant="210" id="iKU-UK-Za0"/>
+                            <constraint firstItem="Tz8-B7-JIb" firstAttribute="leading" secondItem="Qop-pO-nZ8" secondAttribute="leading" constant="116" id="mnd-ZM-krs"/>
+                            <constraint firstItem="Tz8-B7-JIb" firstAttribute="top" secondItem="ddZ-GY-DaD" secondAttribute="bottom" constant="46.5" id="nJN-9H-kRN"/>
+                            <constraint firstItem="Qop-pO-nZ8" firstAttribute="trailing" secondItem="Tz8-B7-JIb" secondAttribute="trailing" constant="116" id="p37-4k-lzU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="t0z-wA-yqY" id="uw1-NI-h7k"/>
+                        <outlet property="facebookButton" destination="I7Q-bd-hRV" id="zGh-r5-xtV"/>
+                        <outlet property="idLabel" destination="XL5-8D-nLH" id="heK-Cj-qtv"/>
+                        <outlet property="nameLabel" destination="c4h-zj-xx3" id="0fr-w4-GTg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RVa-OF-vYb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294.20289855072468" y="48.883928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
